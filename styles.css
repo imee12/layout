@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  list-style type: none;
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header, footer {
+  display:block;
+  width:100%;
+  background-color: #FF0000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* layout*/
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+section {
+  width: 72%;
+  padding: 10px;
+}
+
+aside {
+  width: 25%;
+}
